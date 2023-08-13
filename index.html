@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vini Ferraz">
+    <meta name="keywords" content="brazilian food, brazilian restaurant, feijoada, escondidinho, brigadeiro, pão de queijo, boteco, boteco food, comida de boteco">
+    <link rel="stylesheet" href=".\stylesheet.css">
+    <title>Boteco | Tradicional Brazilian Food</title>
+    <script src="https://kit.fontawesome.com/d0fd81da1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="backgroundImage">
+        <header id="menuFlex">
+            <div id="menuTest">
+                <h1 class="cursiveFont logoText">Boteco</h1>
+                <button id="buttonSmallDevices" onclick="hamburguerMenu()"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <nav id="navMenuSmallDevices">
+                <ul id="navigationMenu">
+                    <li><a href="#" class="normalFont normalFontSize menuItens">Home</a></li>
+                    <li><a href="#aboutUsRow" class="normalFont normalFontSize menuItens">About</a></li>
+                    <li><a href="#menuRow" class="normalFont normalFontSize menuItens">Menu</a></li>
+                    <li><a href="#reservationRow" class="normalFont normalFontSize menuItens">Reservation</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="heroRow">
+                <article>
+                    <h2 class="heroRowWelcomePhrase">
+                        <span class="cursiveFont" id="welcomeWord">Welcome to</span>
+                        <span class="serifFont">BOTECO</span>
+                    </h2>
+                    <hr>
+                    <h3 class="normalFont normalFontSize hoursInfo first">OPENING HOURS</h3>
+                    <p class="normalFont normalFontSize hoursInfo">Monday - Friday: 8:00 AM - 9:00 PM</p>
+                    <p class="normalFont normalFontSize hoursInfo">Weekends: 08:00 AM - 2:00 PM</p>
+
+                    <button id="homeButton"><a href="#"><i class="fa-solid fa-house" style="color: #121212;"></i></a></button>
+                </article>
+            </section>
+    </div>
+
+        <section id="aboutUsRow">
+            <article>
+                <div id="aboutUsBox">
+                    <h2>
+                    <span class="cursiveFont orange cursiveSize" >our story</span>
+                    <span class="serifFont serifSize blackLetter">LOVE FOR FOOD</span>
+                    </h2>
+                    <p class="normalFontSize normalFont blackLetter" id="aboutUsParagraph">Boteco is a Brazilian bar and restaurant owned by Pedro and Ana. They started with a small kiosk, selling drinks and snacks like 
+                        caipirinha and pastel. They opened Boteco, meaning “pub” or “tavern” in Portuguese, to offer a casual and lively place where people 
+                        can enjoy Brazilian food and culture. Boteco is a fun, welcoming, and authentic place where people can relax and have a good time.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="imageRow">
+            <article id="imageRowFlex">
+                <h2 class="cursiveFont cursiveSize orange">Family-style cuisine</h2>
+                <hr>
+                <h2 class="serifFont serifSize whiteLetter">Heartwarming dishes for your palate</h2>
+            </article>
+        </section>
+
+        <section id="menuRow">
+            <article id="menuBox">
+                <h3 class="serifFont serifSize" id="menuTituloRow">MENU</h3>
+
+                <h4 class="serifFont normalFontSize">FEIJOADA</h4>
+                <p class="normalFont normalFontSize ingredientsSize">Beans, Pork, Spices.</p>
+                <p class="serifFont normalFontSize priceFontSize">$20.00</p>
+
+                <hr>
+
+                <h4 class="serifFont normalFontSize">ESCONDIDINHO</h4>
+                <p class="normalFont normalFontSize ingredientsSize">Meat, Root vegetable, Cheese.</p>
+                <p class="serifFont  priceFontSize">$15.00</p>
+
+                <hr>
+
+                <h4 class="serifFont normalFontSize">PÃO DE QUEIJO</h4>
+                <p class="normalFont normalFontSize ingredientsSize">Cassava starch, Cheese, Eggs.</p>
+                <p class="serifFont  priceFontSize">$7.00</p>
+
+                <hr>
+
+                <h4 class="serifFont normalFontSize">BRIGADEIRO</h4>
+                <p class="normalFont normalFontSize ingredientsSize">Condensed milk, Cocoa powder, Butter.</p>
+                <p class="serifFont  priceFontSize">$3.50</p>
+            </article>
+        </section>
+
+        <section class="imageRow2">
+            <article>
+                <h2 class="cursiveFont cursiveSize orange">Quality in every dish</h2>
+                <hr>
+                <h2 class="serifFont serifSize whiteLetter">Sophisticated simplicity</h2>
+            </article>
+        </section>
+
+        <section id="reservationRow">
+            <img src="https://cdn.pixabay.com/photo/2018/04/12/14/51/drink-3313606_1280.jpg" alt="A glass filled with caipirinha and some lemon slices on top." id="caipirinhaPicture" title="caipirinha">
+            <form>
+                <h2>
+                <span class="cursiveFont cursiveSize orange">Reservation</span>
+                <span class="serifFont serifSize">Book your table</span>
+                </h2>
+                <label for="day">
+                    <input id="day" type="date" min="2023-08-12" required>
+                </label>
+                <label for="hour">
+                    <input id="hour" type="time" required>
+                </label>
+                <div id="tableButton">FIND A TABLE</div>
+            </form>
+        </section>
+
+        <section class="imageRow3">
+            <article>
+                <h2 class="cursiveFont cursiveSize orange">Visit us at Boteco</h2>
+                <hr>
+                <h2 class="serifFont serifSize whiteLetter">Sparkling and mouthwatering</h2>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <article id="footerFlex">
+                <h2 class="cursiveFont logoText">Boteco</h2>
+                <h3 class="normalFont normalFontSize hoursInfo first footerText">OPENING HOURS</h3>
+                <p class="normalFont normalFontSize hoursInfo footerText">Monday - Friday: 8:00 AM - 9:00 PM</p>
+                <p class="normalFont normalFontSize hoursInfo footerText">Weekends: 08:00 AM - 2:00 PM</p>
+                <ul id="socialMediasFooter">
+                    <li class="menuItensFooter"><a href="#"><i class="fa-brands fa-square-facebook" class="menuItensFooter"></i></a></li>
+                    <li class="menuItensFooter"><a href="#"><i class="fa-brands fa-square-instagram" class="menuItensFooter"></i></a></li>
+                    <li class="menuItensFooter"><a href="#"><i class="fa-brands fa-square-whatsapp" class="menuItensFooter"></i></a></li>
+                </ul>
+        </article>
+
+    </footer>
+
+    <script>
+
+        function hamburguerMenu() {
+            let menuState = document.getElementById('navigationMenu').style.display;
+            if (menuState == 'none') {
+                document.getElementById('navigationMenu').style.display = 'flex';
+            }else {
+                document.getElementById('navigationMenu').style.display = 'none';
+            }
+        }
+
+    </script>
+
+</body>
+</html>
