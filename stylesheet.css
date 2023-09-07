@@ -103,7 +103,7 @@ header > nav > ul > li, .menuItensFooter {
 /*HeroRow*/
 
 #heroRow {
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -129,7 +129,7 @@ header > nav > ul > li, .menuItensFooter {
     font-size: 2vw;
     color: var(--letter-color1);
     text-align: center;
-    padding-bottom: 4vw;
+    padding-bottom: 3vw;
 }
 
 hr {
@@ -320,15 +320,24 @@ hr {
 #tableButton {
     width: 30vw;
     height: 5vw;
+    padding: 1vw 0;
     border: 0.2vw solid black;
     border-radius: 0.5vw;
     font-size: 2vw;
-    padding: 1.5vw;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: var(--letter-color1);
     background-color: var(--reservation-block-background);
     cursor: pointer;
+    margin: 0 auto;
+}
+
+#tableButtonText {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row-reverse;
 }
 
 #tableButton:hover {
